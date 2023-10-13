@@ -1,2 +1,2 @@
 # plexTec
-Site fantasia do tipo Institucional para serviços de tecnologia.
+Site Estático Institucional para serviços de tecnologia feito com Materialize CSS.
