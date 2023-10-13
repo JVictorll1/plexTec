@@ -11,11 +11,20 @@
 </head>
 <body>
     
-    <!--Menu-Principal-->
+    <!--Menu Principal-->
     <nav class="pink lighten-1 z-depth-0">
         <div class="nav-wrapper container">
             <a href="#" class="brand-logo"><i class="material-icons">all_inclusive</i>PlexTEC</a>
-            <ul class="right">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Materiais</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="btn">Solicite um Teste</a></li>
+            </ul>
+            <!--Menu Principal >> Mobile-->
+            <ul class="side-nav" id="mobile-demo">
                 <li><a href="#">Soluções</a></li>
                 <li><a href="#">Planos</a></li>
                 <li><a href="#">Materiais</a></li>
@@ -29,5 +38,10 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--Javascript-->
+    <script>
+        //Código do Menu Principal Mobile
+        $(".button-collapse").sideNav();
+    </script>
 </body>
 </html>
